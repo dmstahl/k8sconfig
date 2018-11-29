@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -23,11 +24,10 @@ spec:
     spec:
       containers:
       - name: wishlist
-        image: gcr.io/sweetwater-test/test-mirror-1:5968f29e82af66eb7b895bff1ff6b678ed4c19a2
+        image: gcr.io/sweetwater-test/test-mirror-1:c145005770d3f2cc39c5a6952c2568add27aa5ee
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
-
 ---
 kind: Service
 apiVersion: v1
