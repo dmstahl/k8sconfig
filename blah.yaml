@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -23,7 +24,7 @@ spec:
     spec:
       containers:
       - name: blah
-        image: nginx
+        image: nginx:1-alpine-perl
         imagePullPolicy: Always
         ports:
         - containerPort: 80
