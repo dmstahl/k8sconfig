@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: wishlist
-        image: gcr.io/dave-wishlist-test/test-mirror-1:e59e144716bd06fdd67a163ff6290d120530c377689b8a621f9d943982c881bd
+        image: gcr.io/dave-wishlist-test/test-mirror-1:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
