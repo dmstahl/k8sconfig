@@ -1,0 +1,1 @@
+{"jobID":"30315e36-aa88-2685-b0bd-8975f6fc38dc","spec":{"type":"policy","cause":{"Message":"","User":"Dave Stahl \u003cdavid_stahl@sweetwater.com\u003e"},"spec":{"default:deployment/wishlist-deployment":{"add":{},"remove":{"automated":"true"}}}},"result":null}
