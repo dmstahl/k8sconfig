@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: test
-        image: nginx:1-alpine-perl
+        image: nginx:1.14-perl
         imagePullPolicy: Always
         ports:
         - containerPort: 80
