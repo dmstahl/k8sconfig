@@ -5,7 +5,7 @@ metadata:
   name: nginx
   annotations:
     flux.weave.works/automated: "true"
-    flux.weave.works/tag.nginx: semver:~1.14
+    flux.weave.works/tag.nginx: semver:~1.15
   labels:
     app: nginx
 spec:
